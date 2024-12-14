@@ -13,6 +13,13 @@ body {
 
 .header {
     background: rgba(103, 67, 172, 0.3);
+    padding: 20px 30px;
+}
+
+.header__logo {
+    display: block;
+    /* padding: 0 auto; */
+    /* margin: 0 auto; */
 }
 
 .container {
@@ -20,13 +27,25 @@ body {
     margin: 0 auto;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
+.nav {
+    margin: 0 auto;
+}
+
+.menu {
     text-align: center;
 }
 
-li {
+.menu__item {
     display: inline-block;
     margin: 0 25px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.menu__link:hover {
+    color: rgba(103, 67, 172, 1);
 }
